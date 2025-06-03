@@ -1,12 +1,27 @@
+import logo from '../assets/logo.png'
+
 export default function Nav() {
   return (
     <nav className="fixed top-0 left-0 w-full bg-white shadow-md z-50">
       <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
-        <div className="text-xl font-bold text-indigo-600">MonSite</div>
-        <div className="space-x-6">
-          <a href="#" className="text-gray-700 hover:text-indigo-600">Accueil</a>
+        <div>
+          <img src={logo} alt="Logo" className="h-10" />
+        </div>
+
+        <div className="hidden md:flex gap-6">
+          <a href="#" className="text-gray-700 hover:text-red-600">Accueil</a>
+          <a href="#" className="text-gray-700 hover:text-indigo-600">Actualités-Blog</a>
+          {/* <a href="#" className="text-gray-700 hover:text-indigo-600">Services</a> */}
           <a href="#" className="text-gray-700 hover:text-indigo-600">À propos</a>
           <a href="#" className="text-gray-700 hover:text-indigo-600">Contact</a>
+        </div>
+        <div>
+          <a
+            href="#"
+            className="bg-red-600 text-white px-4 py-2 rounded-md text-sm font-semibold hover:bg-indigo-700"
+          >
+            Se connecter
+          </a>
         </div>
       </div>
     </nav>
