@@ -1,18 +1,14 @@
 import { useState } from 'react'
 import './App.css'
-import HeroSection from './components/herosection'
+import './components/Navbar'
+import Nav from './components/Navbar'
 
-function App() {
-  const [count, setCount] = useState(0)
-
+export default function App() {
   return (
-    <>
     <div>
-      <HeroSection />
+      <Nav />
     </div>
-    </>
   )
 }
 
-export default App
 
