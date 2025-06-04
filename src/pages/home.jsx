@@ -1,8 +1,8 @@
 import "react";
 import SectionOne from "../components/SectionOne";
 import Contactus from "../components/Contactus";
-import Blogs from "../components/Blogs";
 import Aboutus from "../components/Aboutus";
+import Blogs from "../components/Blogs";
 
 function Home() {
   return (

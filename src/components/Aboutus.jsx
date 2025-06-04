@@ -6,7 +6,10 @@ import img4 from "../assets/4.jpg";
 
 function Aboutus() {
   return (
-    <div class="w-full lg:h-screen h-full m-auto flex items-center justify-cetner py-20 bg-gray-50 dark:bg-gray-900">
+    <div
+      id="propos"
+      class="w-full lg:h-screen h-full m-auto flex items-center justify-cetner py-20 bg-gray-50 dark:bg-gray-900"
+    >
       <div class="w-full h-full flex flex-col justify-center items-center sm:px-4 px-2">
         <div class="lg:w-[90%] w-full mx-auto flex flex-col lg:gap-6 lg:flex-row items-center justify-center ">
           <div class="relative">

@@ -15,7 +15,7 @@ function SectionOne() {
           الصحة النفسية والرفاهية
         </h2>
 
-        <h1 className="playfair-display text-white text-5xl md:text-7xl font-bold text-center text-red-600 mt-4">
+        <h1 className="playfair-display text-red-600 text-5xl md:text-7xl font-bold text-center text-red-600 mt-4">
           Santé Mentale & Bien Être
         </h1>
 
@@ -32,7 +32,7 @@ function SectionOne() {
             Nous Contacter
           </a>
           <a
-            href="#explorer"
+            href="#actualiteBlog"
             className="bg-white hover:bg-gray-200 text-red-700 px-9 py-3 rounded-md text-lg font-semibold text-center"
           >
             Explorer le Blog
