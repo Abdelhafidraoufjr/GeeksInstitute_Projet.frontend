@@ -1,24 +1,3 @@
-<<<<<<< HEAD
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Nav from './components/Navbar';
-import Home from './pages/home';
-import Login from './pages/LoginPage';
-import Contact from './pages/Contactus'
-import Blog from './pages/blogs'
-import Footer from './components/Footer';
-
-export default function App() {
-  return (
-    <Router>
-      <Nav />
-      <Footer />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/actualiteBlog" element={<Blog/>} />
-        <Route path="/contact" element={<Contact />} />
-=======
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { useState } from "react";
 import Home from "./pages/Home";
@@ -67,7 +46,6 @@ export default function App() {
             )
           }
         />
->>>>>>> yassine
       </Routes>
     </BrowserRouter>
   );
