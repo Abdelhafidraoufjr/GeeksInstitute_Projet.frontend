@@ -1,30 +1,27 @@
-import "react";
-import SectionOne from "../components/SectionOne";
-import Contactus from "../components/Contactus";
-import Aboutus from "../components/Aboutus";
-import Blogs from "../components/Blogs";
+import React from "react";
+import background from "../assets/4088661.jpg";
 
-function Home() {
+function SectionOne() {
   return (
-<<<<<<< HEAD
     <div
-      className="fixed inset-0 bg-cover bg-center bg-no-repeat"
+      className="overflow-y-auto h-[600px]  bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: `url(${background})` }}
     >
       <div className="h-full w-full backdrop-blur-sm bg-black/40 flex flex-col items-center justify-center px-4">
         <h2
           className="text-white text-2xl md:text-4xl font-semibold text-center"
-          style={{ fontFamily: 'Amiri, serif' }}
+          style={{ fontFamily: "Amiri, serif" }}
         >
           الصحة النفسية والرفاهية
         </h2>
 
-        <h1 className="playfair-display text-red text-5xl md:text-7xl font-bold text-center text-red-600 mt-4">
+        <h1 className="playfair-display text-red-600 text-5xl md:text-7xl font-bold text-center text-red-600 mt-4">
           Santé Mentale & Bien Être
         </h1>
 
         <p className="text-white text-lg md:text-xl text-center mt-4 max-w-2xl">
-          Un espace communautaire pour partager conseils, récits et ressources autour du bien-être mental.
+          Un espace communautaire pour partager conseils, récits et ressources
+          autour du bien-être mental.
         </p>
 
         <div className="mt-8 flex flex-col sm:flex-row gap-4">
@@ -35,28 +32,15 @@ function Home() {
             Nous Contacter
           </a>
           <a
-            href="#explorer"
+            href="#actualiteBlog"
             className="bg-white hover:bg-gray-200 text-red-700 px-9 py-3 rounded-md text-lg font-semibold text-center"
           >
             Explorer le Blog
           </a>
         </div>
       </div>
-
-      <div className="absolute bottom-5 left-1/2 -translate-x-1/2 text-center">
-        <ChevronDownIcon className="h-8 w-8 text-white mx-auto" />
-        <p className="text-white text-sm mt-1">Faire défiler vers le bas</p>
-      </div>
     </div>
-=======
-    <>
-      <SectionOne />
-      <Blogs />
-      <Aboutus />
-      <Contactus />
-    </>
->>>>>>> yassine
   );
 }
 
-export default Home;
+export default SectionOne;
