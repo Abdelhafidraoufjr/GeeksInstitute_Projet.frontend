@@ -1,4 +1,4 @@
-import logo from '../assets/logo.png'
+import logo from "../assets/logo.png";
 
 export default function Nav() {
   return (
@@ -9,17 +9,28 @@ export default function Nav() {
         </div>
 
         <div className="hidden md:flex gap-6">
-          <a href="/" className="text-gray-700 hover:text-red-600">Accueil</a>
-          <a href="/actualiteBlog" className="text-gray-700 hover:text-red-600">Actualités-Blog</a>
-          <a href="/propos" className="text-gray-700 hover:text-red-600">À propos</a>
-          <a href="/contact" className="text-gray-700 hover:text-red-600">Contact</a>
+          <a href="/" className="text-gray-700 hover:text-red-600">
+            Accueil
+          </a>
+          <a href="#actualiteBlog" className="text-gray-700 hover:text-red-600">
+            Actualités-Blog
+          </a>
+          <a href="/propos" className="text-gray-700 hover:text-red-600">
+            À propos
+          </a>
+          <a href="/contact" className="text-gray-700 hover:text-red-600">
+            Contact
+          </a>
         </div>
         <div>
           <a
             href="/login"
-            className="bg-red-600 text-white px-4 py-2 rounded-md text-sm font-semibold">Se connecter</a>
+            className="bg-red-600 text-white px-4 py-2 rounded-md text-sm font-semibold"
+          >
+            Se connecter
+          </a>
         </div>
       </div>
     </nav>
-  )
+  );
 }

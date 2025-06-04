@@ -1,17 +1,17 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Nav from "./components/Navbar";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/home";
 import Login from "./pages/LoginPage";
+import Layout from "./Layout/Layout";
+
 export default function App() {
   return (
-    <Router>
-      <Nav />
-
+    <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/login" element={<Login />} />
-        {/* <Route path="/login" element={<Login />} /> */}
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+        </Route>
+        <Route index element={<Login />} />
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 }
