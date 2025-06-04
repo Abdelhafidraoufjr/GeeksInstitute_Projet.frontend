@@ -15,7 +15,7 @@ export default function Home() {
           الصحة النفسية والرفاهية
         </h2>
 
-        <h1 className="playfair-display text-white text-5xl md:text-7xl font-bold text-center text-red-600 mt-4">
+        <h1 className="playfair-display text-red text-5xl md:text-7xl font-bold text-center text-red-600 mt-4">
           Santé Mentale & Bien Être
         </h1>
 
