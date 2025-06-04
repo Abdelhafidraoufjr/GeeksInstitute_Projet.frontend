@@ -4,11 +4,13 @@ import Home from './pages/home';
 import Login from './pages/LoginPage';
 import Contact from './pages/Contactus'
 import Blog from './pages/blogs'
+import Footer from './components/Footer';
 
 export default function App() {
   return (
     <Router>
       <Nav />
+      <Footer />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
