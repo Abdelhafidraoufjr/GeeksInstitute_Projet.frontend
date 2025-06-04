@@ -96,7 +96,7 @@ export default function Login({ onLoginSuccess }) {
         },
         body: JSON.stringify({ email, password }),
       });
-
+      
       const data = await response.json();
 
       if (!response.ok) {

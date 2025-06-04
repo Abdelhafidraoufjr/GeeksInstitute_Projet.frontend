@@ -5,7 +5,6 @@ export default function Blogs() {
     <div className="p-10 " id="actualiteBlog">
       <div className="flex justify-center ">
         {" "}
-        {/* Added wrapper div for centering and margin-bottom */}
         <h2 className="font-heading font-bold text-gray-900 dark:text-red-600 text-3xl sm:text-5xl text-center">
           Actualités-Blog
         </h2>
