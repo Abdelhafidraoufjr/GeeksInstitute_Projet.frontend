@@ -28,14 +28,13 @@ export default function App() {
           element={<Layout isLoggedIn={isLoggedIn} onLogout={handleLogout} />}
         >
           <Route index element={<Home />} />
+          <Route
+            path="/ajouter-blog"
+            element={
+              isLoggedIn ? <AjouterBlog /> : <Navigate to="/login" replace />
+            }
+          />
         </Route>
-
-        <Route
-          path="/ajouter-blog"
-          element={
-            isLoggedIn ? <AjouterBlog /> : <Navigate to="/login" replace />
-          }
-        />
 
         <Route
           path="/login"

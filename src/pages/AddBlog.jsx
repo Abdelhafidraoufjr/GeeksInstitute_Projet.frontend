@@ -24,7 +24,7 @@ export default function AjouterBlog() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50 px-4">
+    <div className="mt-24 min-h-screen flex items-center justify-center bg-gray-50 px-4">
       <div className="max-w-md w-full bg-white rounded-xl shadow-lg p-8">
         <h2 className="text-3xl font-extrabold text-red-600 mb-6 text-center">
           Ajouter un Blog
